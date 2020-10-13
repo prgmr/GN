@@ -1,0 +1,4 @@
+Hello, {{ user.first_name }} {{ user.last_name}}!
+
+{{user.email}}
+Click http://localhost:8000/api/user/register/confirm/{{user.token}} for continue registering
