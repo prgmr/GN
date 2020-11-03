@@ -22,8 +22,9 @@ Django 2.2 LTS, djangorestframework, djangorestframework-simplejwt, django-envir
 `cd backend`  
 `python3 -m venv venv`  
 `source venv/bin/activate`  
-`./manage migrate`  
-`./manage runserver`  
+`pip install -r requirements.txt`  
+`python manage.py migrate`  
+`python manage.py runserver`  
 
 
 
